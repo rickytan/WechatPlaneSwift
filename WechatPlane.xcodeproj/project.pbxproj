@@ -14,6 +14,12 @@
 		9C36B3C9193EEA0B00452F5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C36B3C7193EEA0B00452F5D /* Main.storyboard */; };
 		9C36B3CB193EEA0B00452F5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C36B3CA193EEA0B00452F5D /* Images.xcassets */; };
 		9C36B3D7193EEA0B00452F5D /* WechatPlaneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C36B3D6193EEA0B00452F5D /* WechatPlaneTests.swift */; };
+		9C36B3E4193EEB1300452F5D /* gameArts-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C36B3E0193EEB1300452F5D /* gameArts-hd.plist */; };
+		9C36B3E5193EEB1300452F5D /* gameArts-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C36B3E1193EEB1300452F5D /* gameArts-hd.png */; };
+		9C36B3E6193EEB1300452F5D /* gameArts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C36B3E2193EEB1300452F5D /* gameArts.plist */; };
+		9C36B3E7193EEB1300452F5D /* gameArts.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C36B3E3193EEB1300452F5D /* gameArts.png */; };
+		9C36B3E9193EED4300452F5D /* TextureCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C36B3E8193EED4300452F5D /* TextureCache.swift */; };
+		9CE159C11941D10300FCE5B6 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE159C01941D10300FCE5B6 /* Plane.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +44,12 @@
 		9C36B3D0193EEA0B00452F5D /* WechatPlaneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WechatPlaneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C36B3D5193EEA0B00452F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C36B3D6193EEA0B00452F5D /* WechatPlaneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WechatPlaneTests.swift; sourceTree = "<group>"; };
+		9C36B3E0193EEB1300452F5D /* gameArts-hd.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "gameArts-hd.plist"; sourceTree = "<group>"; };
+		9C36B3E1193EEB1300452F5D /* gameArts-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gameArts-hd.png"; sourceTree = "<group>"; };
+		9C36B3E2193EEB1300452F5D /* gameArts.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = gameArts.plist; sourceTree = "<group>"; };
+		9C36B3E3193EEB1300452F5D /* gameArts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameArts.png; sourceTree = "<group>"; };
+		9C36B3E8193EED4300452F5D /* TextureCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextureCache.swift; sourceTree = "<group>"; };
+		9CE159C01941D10300FCE5B6 /* Plane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +92,18 @@
 			isa = PBXGroup;
 			children = (
 				9C36B3BF193EEA0B00452F5D /* AppDelegate.swift */,
+				9C36B3E0193EEB1300452F5D /* gameArts-hd.plist */,
+				9C36B3E1193EEB1300452F5D /* gameArts-hd.png */,
+				9C36B3E2193EEB1300452F5D /* gameArts.plist */,
+				9C36B3E3193EEB1300452F5D /* gameArts.png */,
 				9C36B3C1193EEA0B00452F5D /* GameScene.sks */,
 				9C36B3C3193EEA0B00452F5D /* GameScene.swift */,
 				9C36B3C5193EEA0B00452F5D /* GameViewController.swift */,
-				9C36B3C7193EEA0B00452F5D /* Main.storyboard */,
 				9C36B3CA193EEA0B00452F5D /* Images.xcassets */,
+				9C36B3C7193EEA0B00452F5D /* Main.storyboard */,
+				9CE159C01941D10300FCE5B6 /* Plane.swift */,
 				9C36B3BD193EEA0B00452F5D /* Supporting Files */,
+				9C36B3E8193EED4300452F5D /* TextureCache.swift */,
 			);
 			path = WechatPlane;
 			sourceTree = "<group>";
@@ -195,6 +213,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C36B3E6193EEB1300452F5D /* gameArts.plist in Resources */,
+				9C36B3E5193EEB1300452F5D /* gameArts-hd.png in Resources */,
+				9C36B3E7193EEB1300452F5D /* gameArts.png in Resources */,
+				9C36B3E4193EEB1300452F5D /* gameArts-hd.plist in Resources */,
 				9C36B3CB193EEA0B00452F5D /* Images.xcassets in Resources */,
 				9C36B3C2193EEA0B00452F5D /* GameScene.sks in Resources */,
 				9C36B3C9193EEA0B00452F5D /* Main.storyboard in Resources */,
@@ -217,7 +239,9 @@
 			files = (
 				9C36B3C4193EEA0B00452F5D /* GameScene.swift in Sources */,
 				9C36B3C6193EEA0B00452F5D /* GameViewController.swift in Sources */,
+				9CE159C11941D10300FCE5B6 /* Plane.swift in Sources */,
 				9C36B3C0193EEA0B00452F5D /* AppDelegate.swift in Sources */,
+				9C36B3E9193EED4300452F5D /* TextureCache.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +431,7 @@
 				9C36B3DC193EEA0B00452F5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C36B3DD193EEA0B00452F5D /* Build configuration list for PBXNativeTarget "WechatPlaneTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +440,7 @@
 				9C36B3DF193EEA0B00452F5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
